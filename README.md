@@ -225,7 +225,7 @@ projeto-acai/
 
 ## 👨‍💻 Autor
 
-**Seu Nome**
+**Micas 😎**
 - GitHub: [@micas-tsx](https://github.com/micas-tsx)
 - LinkedIn: [micael abud](https://linkedin.com/in/micael-abud)
 
