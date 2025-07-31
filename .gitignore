@@ -1,0 +1,314 @@
+# 🥤 Sistema de Fidelidade Açaí - .gitignore
+
+# ========================================
+# DEPENDÊNCIAS
+# ========================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Package managers
+.npm
+.yarn-integrity
+.pnp
+.pnp.js
+
+# ========================================
+# AMBIENTE E CONFIGURAÇÕES
+# ========================================
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+
+# Configurações locais
+*.local
+config.local.js
+settings.local.json
+
+# ========================================
+# BUILD E DISTRIBUIÇÃO
+# ========================================
+
+# Vite (Frontend)
+dist/
+dist-ssr/
+*.local
+
+# Build artifacts
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+
+# ========================================
+# BANCO DE DADOS
+# ========================================
+
+# PostgreSQL
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Prisma
+prisma/migrations/dev.db
+prisma/migrations/dev.db-journal
+
+# ========================================
+# LOGS E TEMPORÁRIOS
+# ========================================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ========================================
+# SISTEMA OPERACIONAL
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================================
+# IDEs E EDITORES
+# ========================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ========================================
+# TESTES
+# ========================================
+
+# Jest
+coverage/
+.nyc_output
+.jest/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# ========================================
+# DEPLOY E PRODUÇÃO
+# ========================================
+
+# Deploy directories
+.vercel
+.netlify
+.now
+.cache
+.parcel-cache
+
+# PM2
+.pm2/
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# ========================================
+# SEGURANÇA
+# ========================================
+
+# Chaves e certificados
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# Senhas e tokens
+secrets/
+.secrets
+*.secret
+auth.json
+credentials.json
+
+# ========================================
+# ESPECÍFICO DO PROJETO
+# ========================================
+
+# Arquivos específicos do projeto açaí
+acai-config.json
+clientes-backup.json
+estrelas-temp.json
+
+# Backups
+*.backup
+*.bak
+*.old
+*.orig
+
+# Arquivos temporários do desenvolvimento
+temp/
+tmp/
+.tmp/
+
+# ========================================
+# MONITORAMENTO E DEBUG
+# ========================================
+
+# Performance monitoring
+.newrelic
+.newrelic_agent.log
+
+# Debug
+.debug/
+
+# ========================================
+# OUTROS
+# ========================================
+
+# Arquivos de lock (manter apenas um)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Arquivos de configuração local
+.eslintrc.local
+.prettierrc.local
+.babelrc.local
+
+# Arquivos de cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# Arquivos de metadados
+*.meta
+*.map
+
+# Arquivos de compressão
+*.gz
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# ========================================
+# COMENTÁRIOS E DOCUMENTAÇÃO
+# ========================================
+
+# Este .gitignore foi criado especificamente para o projeto:
+# 🥤 Sistema de Fidelidade Açaí
+# 
+# Tecnologias cobertas:
+# - React + Vite (Frontend)
+# - Node.js + Express (Backend)
+# - PostgreSQL + Prisma (Database)
+# - CSS Modules (Estilização)
+# - Axios (HTTP Client)
+#
+# Autor: Micael Abud (@micas-tsx)
+# Data: 2024 
