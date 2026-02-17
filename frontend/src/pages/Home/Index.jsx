@@ -146,11 +146,9 @@ function Home() {
               Programa de fidelidade
             </span>
             <h1 className="text-balance font-display text-4xl font-semibold text-purpleDeep md:text-5xl">
-              Açaí Shop com fidelidade clara, bonita e fácil de gerenciar.
+              Açaí Shop
             </h1>
-            <p className="max-w-xl text-sm leading-relaxed text-purpleDeep/80 md:text-base">
-              Cadastre clientes, acompanhe estrelas e transforme cada compra em uma recompensa. Tudo em um fluxo simples, pensado para o dia a dia da loja.
-            </p>
+            
             <div className="flex flex-wrap gap-3">
               <button className="btn-primary" onClick={() => inputName.current?.focus()} type="button">
                 Cadastrar agora
